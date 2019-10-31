@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 class ProfileViewController: UIViewController {
     
@@ -16,7 +17,11 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var profileEmailLabel: UILabel!
     @IBOutlet weak var profilePhoneLabel: UILabel!
     @IBOutlet weak var profileWebsiteLabel: UILabel!
+    @IBOutlet weak var profileMapView: MKMapView!
+    
     var data:NSObject?
+    var longitude: Double?
+    var latitude: Double?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,23 +41,35 @@ class ProfileViewController: UIViewController {
             if let website: String = data?.value(forKey: "website") as? String {
                 profileWebsiteLabel.text = "Website: " + website
             }
+            if let lat = 10.281923 as? Double, let long = 123.881524 as? Double{
+                let initialLocation = CLLocation(latitude: lat, longitude: long)
+                let regionRadius: CLLocationDistance = 500
+                let coordinateRegion = MKCoordinateRegion(center: initialLocation.coordinate,
+                                                          latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
+                let annotation = Annotation(
+                    coordinate: CLLocationCoordinate2D(latitude: lat, longitude: long))
+                profileMapView.addAnnotation(annotation)
+                profileMapView.setRegion(coordinateRegion, animated: true)
+                self.longitude = long
+                self.latitude = lat
+            }
+            
             profileImage.layer.cornerRadius = 150;
-
         }
-        
-        
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+
+        if let identifier = segue.identifier, identifier == "direction" {
+            if let vc = segue.destination as? DirectionViewController{
+                if longitude != nil,latitude != nil{
+                    vc.latitude = latitude
+                    vc.longitude = longitude
+                }
+            }
+        }
     }
-    */
 
 }

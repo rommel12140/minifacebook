@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MiniFacebook/PhotosViewController.swift"
@@ -19,34 +19,34 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in MiniFacebook.PhotosViewController.createSlides() -&gt; Swift.Array&lt;MiniFacebook.Slide&gt;"
                   moduleName = "MiniFacebook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/rommel/Projects/AWS-training/MiniFacebook/MiniFacebook/PhotosViewController.swift"
-                  timestampString = "594181638.389565"
+                  timestampString = "594194526.600982"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
                   endingLineNumber = "38"
-                  offsetFromSymbolStart = "255">
+                  offsetFromSymbolStart = "277">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in MiniFacebook.PhotosViewController.createSlides() -&gt; Swift.Array&lt;MiniFacebook.Slide&gt;"
                   moduleName = "MiniFacebook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/rommel/Projects/AWS-training/MiniFacebook/MiniFacebook/PhotosViewController.swift"
-                  timestampString = "594181638.391997"
+                  timestampString = "594194526.603058"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "32"
                   endingLineNumber = "32"
-                  offsetFromSymbolStart = "46">
+                  offsetFromSymbolStart = "54">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -54,7 +54,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MiniFacebook/PhotosViewController.swift"
@@ -67,36 +67,100 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MiniFacebook.PhotosViewController.createSlides() -&gt; Swift.Array&lt;MiniFacebook.Slide&gt;"
                   moduleName = "MiniFacebook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/rommel/Projects/AWS-training/MiniFacebook/MiniFacebook/PhotosViewController.swift"
-                  timestampString = "594181638.550604"
+                  timestampString = "594194526.608456"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
                   endingLineNumber = "36"
-                  offsetFromSymbolStart = "1458">
+                  offsetFromSymbolStart = "2335">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in MiniFacebook.PhotosViewController.createSlides() -&gt; Swift.Array&lt;MiniFacebook.Slide&gt;"
                   moduleName = "MiniFacebook"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/rommel/Projects/AWS-training/MiniFacebook/MiniFacebook/PhotosViewController.swift"
-                  timestampString = "594181638.552906"
+                  timestampString = "594194526.611495"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "32"
                   endingLineNumber = "32"
-                  offsetFromSymbolStart = "40">
+                  offsetFromSymbolStart = "48">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiniFacebook/ProfileViewController.swift"
+            timestampString = "594195540.622789"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiniFacebook/ProfileViewController.swift"
+            timestampString = "594195540.6232409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiniFacebook/ProfileViewController.swift"
+            timestampString = "594195540.623559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MiniFacebook/ProfileViewController.swift"
+            timestampString = "594195540.623852"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

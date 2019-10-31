@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0446EEA236AAE65001301DF /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0446EE9236AAE65001301DF /* Annotation.swift */; };
+		B0446EEC236AB286001301DF /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0446EEB236AB286001301DF /* DirectionViewController.swift */; };
 		B0B7C89E236A77320071E7DF /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B7C89D236A77320071E7DF /* Slide.swift */; };
 		B0B7C8A0236A773D0071E7DF /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B7C89F236A773D0071E7DF /* Slide.xib */; };
 		B0BF55B7236A5BB100C88055 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF55B6236A5BB100C88055 /* PhotosViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0446EE9236AAE65001301DF /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		B0446EEB236AB286001301DF /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
 		B0B7C89D236A77320071E7DF /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		B0B7C89F236A773D0071E7DF /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 		B0BF55B6236A5BB100C88055 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				D48E6B15236835640081AEF4 /* AlbumCollectionViewController.swift */,
 				D48E6B1B236848090081AEF4 /* AlbumCollectionViewCell.swift */,
 				B0BF55B6236A5BB100C88055 /* PhotosViewController.swift */,
+				B0446EE9236AAE65001301DF /* Annotation.swift */,
+				B0446EEB236AB286001301DF /* DirectionViewController.swift */,
 			);
 			path = MiniFacebook;
 			sourceTree = "<group>";
@@ -181,7 +187,9 @@
 				B0BF55B7236A5BB100C88055 /* PhotosViewController.swift in Sources */,
 				D4D84A322366DACC00EF48AB /* ViewController.swift in Sources */,
 				D49577B92366E03D00F1BC82 /* TableViewCell.swift in Sources */,
+				B0446EEA236AAE65001301DF /* Annotation.swift in Sources */,
 				D48E6B16236835640081AEF4 /* AlbumCollectionViewController.swift in Sources */,
+				B0446EEC236AB286001301DF /* DirectionViewController.swift in Sources */,
 				D48E6B1C236848090081AEF4 /* AlbumCollectionViewCell.swift in Sources */,
 				D49577BB2366EA6300F1BC82 /* ProfileViewController.swift in Sources */,
 				D48E6B1423681BD80081AEF4 /* PostsViewController.swift in Sources */,
