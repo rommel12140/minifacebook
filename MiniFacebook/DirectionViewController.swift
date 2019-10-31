@@ -62,10 +62,8 @@ class DirectionViewController: UIViewController , MKMapViewDelegate, CLLocationM
         directionRequest.destination = destinationMapItem
         directionRequest.transportType = .automobile
         
-        // Calculate the direction
         let directions = MKDirections(request: directionRequest)
         
-        // 8.
         directions.calculate {
             (response, error) -> Void in
             
