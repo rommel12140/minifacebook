@@ -22,7 +22,7 @@ class DirectionViewController: UIViewController {
             let coordinateRegion = MKCoordinateRegion(center: initialLocation.coordinate,
                                                       latitudinalMeters: regionRadius, longitudinalMeters: regionRadius)
             let annotation = Annotation(
-                coordinate: CLLocationCoordinate2D(latitude: self.latitude!, longitude: self.latitude!))
+                coordinate: CLLocationCoordinate2D(latitude: self.latitude!, longitude: self.longitude!))
             directionMapView.addAnnotation(annotation)
             directionMapView.setRegion(coordinateRegion, animated: true)
         }
