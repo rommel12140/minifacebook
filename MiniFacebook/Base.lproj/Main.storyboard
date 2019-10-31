@@ -351,8 +351,8 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="137-eE-hND">
                                 <rect key="frame" x="36" y="463" width="343" height="154"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypY-E7-Kbd">
-                                <rect key="frame" x="176" y="625" width="63" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypY-E7-Kbd">
+                                <rect key="frame" x="129" y="625" width="156" height="30"/>
                                 <state key="normal" title="Direction"/>
                                 <connections>
                                     <segue destination="NgX-9T-SQA" kind="show" identifier="direction" id="ju8-Ge-95B"/>
@@ -381,7 +381,7 @@
                             <constraint firstItem="3e7-zW-ifv" firstAttribute="top" secondItem="l5Z-cm-6EE" secondAttribute="bottom" constant="8" id="gsb-OM-bJG"/>
                             <constraint firstItem="MUX-On-0dJ" firstAttribute="trailing" secondItem="Nkw-nd-MWd" secondAttribute="trailing" constant="51" id="ivn-zS-dyN"/>
                             <constraint firstItem="ypY-E7-Kbd" firstAttribute="centerX" secondItem="137-eE-hND" secondAttribute="centerX" id="mDh-4r-hnB"/>
-                            <constraint firstItem="ypY-E7-Kbd" firstAttribute="leading" secondItem="MUX-On-0dJ" secondAttribute="leading" constant="176" id="tct-6T-d3L"/>
+                            <constraint firstItem="ypY-E7-Kbd" firstAttribute="leading" secondItem="MUX-On-0dJ" secondAttribute="leading" constant="129" id="tct-6T-d3L"/>
                             <constraint firstItem="ypY-E7-Kbd" firstAttribute="top" secondItem="137-eE-hND" secondAttribute="bottom" constant="8" id="vCB-uf-Hyt"/>
                             <constraint firstItem="3e7-zW-ifv" firstAttribute="leading" secondItem="MUX-On-0dJ" secondAttribute="leading" constant="20" id="vFT-xR-WNv"/>
                             <constraint firstItem="ekD-3E-9lq" firstAttribute="top" secondItem="MUX-On-0dJ" secondAttribute="top" constant="16" id="vGB-XS-fxx"/>
