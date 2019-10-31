@@ -54,7 +54,9 @@ class ProfileViewController: UIViewController {
                 self.latitude = lat
             }
             
-            profileImage.layer.cornerRadius = 150;
+            profileImage.layer.masksToBounds = false
+            profileImage.layer.cornerRadius = profileImage.frame.height/2
+            profileImage.clipsToBounds = true
         }
         // Do any additional setup after loading the view.
     }

@@ -95,6 +95,8 @@ class AlbumCollectionViewController: UICollectionViewController {
                 DispatchQueue.main.async {
                     if let image = UIImage(data: data!){
                         cell.albumImage.image = image
+                        cell.albumImage.layer.masksToBounds = false
+                        cell.albumImage.clipsToBounds = true
                     }
                 }
             }

@@ -46,8 +46,12 @@ class TableViewController: UITableViewController {
                     cell.userNameLabel.text = "Name: " + name;
             }
             if let email: String = (userArray?.object(at: indexPath.row) as AnyObject).value(forKey: "email") as? String {
-                    cell.userEmailLabel.text = "Email: " + email;
+                    cell.userEmailLabel.text = email;
             }
+            cell.userImage.layer.masksToBounds = false
+            cell.userImage.layer.cornerRadius = cell.userImage.frame.height/2
+            cell.userImage.clipsToBounds = true
+            
             
         }
         
